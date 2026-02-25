@@ -1,0 +1,60 @@
+📄 README_Task4.md
+Iris Flower Classification – Task 4
+
+📌 Project Overview
+This project builds a classification model to predict iris flower species based on physical measurements.
+This is a classification problem because the output belongs to one of multiple categories.
+
+🎯 Objective
+To classify iris flowers into three species using petal and sepal measurements.
+
+📂 Dataset Information
+Dataset used: Iris Dataset
+Source: sklearn.datasets.load_iris()
+
+Features:
+Sepal Length
+Sepal Width
+Petal Length
+Petal Width
+Target Classes:
+Setosa
+Versicolor
+Virginica
+
+⚙️ Steps Performed
+Imported required libraries
+Loaded Iris dataset
+Converted dataset into Pandas DataFrame
+Defined features and target variable
+Split dataset into training and testing sets
+Trained Logistic Regression model
+Evaluated performance using:
+Accuracy Score
+Confusion Matrix
+Compared results using K-Nearest Neighbors (KNN)
+
+📊 Model Evaluation
+Logistic Regression achieved high accuracy.
+Confusion matrix helped analyze classification performance.
+KNN produced comparable results.
+
+🛠 Technologies Used
+Python
+Pandas
+Scikit-learn
+Jupyter Notebook / VS Code
+
+▶️ How to Run
+Install required libraries: pip install pandas scikit-learn
+Run the Python script in your preferred Python environment.
+
+📚 Key Concepts Learned
+Classification models
+Logistic Regression
+K-Nearest Neighbors
+Confusion Matrix
+Accuracy measurement
+
+✅ Conclusion
+This project demonstrates how machine learning can classify real-world data accurately. It builds strong foundational knowledge in classification algorithms.
