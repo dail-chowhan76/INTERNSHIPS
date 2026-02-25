@@ -1,0 +1,64 @@
+📄 README_Task3
+Housing Price Prediction – Task 3
+📌 Project Overview
+This project focuses on predicting house prices using the California Housing dataset. The objective is to build a machine learning regression model that estimates median house value based on different housing features.
+
+This is a regression problem because the output is a continuous numerical value.
+
+🎯 Objective
+To develop a model that predicts housing prices using features such as income, house age, number of rooms, population, and location.
+
+📂 Dataset Information
+Dataset used: California Housing Dataset
+Source: sklearn.datasets.fetch_california_housing()
+
+Features:
+Median Income
+House Age
+Average Rooms
+Average Bedrooms
+Population
+Average Occupancy
+Latitude
+Longitude
+
+Target:
+Median House Value
+
+⚙️ Steps Performed
+Imported required Python libraries
+Loaded dataset using scikit-learn
+Converted dataset into Pandas DataFrame
+Checked for missing values
+Selected features and target variable
+Split dataset into training and testing sets
+Trained Linear Regression model
+Evaluated model using:
+Mean Absolute Error (MAE)
+R² Score
+Compared performance using Random Forest Regressor
+
+📊 Model Evaluation
+Linear Regression provided a baseline prediction.
+Random Forest improved prediction accuracy.
+R² score was used to measure how well the model explains variance.
+
+🛠 Technologies Used
+Python
+Pandas
+Scikit-learn
+Jupyter Notebook / VS Code
+
+▶️ How to Run
+Install required libraries: pip install pandas scikit-learn
+Run the Python script in Jupyter Notebook or any Python IDE.
+
+📚 Key Concepts Learned
+Regression modeling
+Feature selection
+Model training and testing
+Error metrics (MAE, R²)
+Model comparison
+
+✅ Conclusion
+The project successfully demonstrates how machine learning can be applied to real estate price prediction. It strengthens understanding of regression models and evaluation techniques.
